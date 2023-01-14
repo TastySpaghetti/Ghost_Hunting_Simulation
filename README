@@ -13,10 +13,10 @@ LIST OF FILES:
 	README
 
 COMPILATION INSTRUCTIONS:
-	You can type 'make' into the compiler and it will compile into a file called 'proj'
+	You can type 'make' into the terminal and it will compile into a file called 'proj'
 	If for some reason the make file does not work, use the following command:
 		gcc -o proj main.c ghost.c room.c evidence.c hunter.c building.c defs.h
-	enter './proj' to run the program
+	enter './proj' in the terminal to run the program
 
 DESCRIPTION OF MAIN PROGRAM
 	The program will prompt you to enter 4 names, which should be entered on the same line space separated. No input will be required after that. The program will then initialize 4 hunters, starting at the van, and 1 ghost, starting in any random location excluding the van. Each hunter and the ghost will be given a thread for them to work with and begin their hunt for the ghost. The ghost and hunters actions are decided purely randomly.
